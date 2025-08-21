@@ -1,20 +1,519 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <title>VLibras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>VLibras - Diadema Escreve</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
-  <!-- VLibras Widget -->
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid"> 
+                <a class="navbar-brand" href="#">Carousel</a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="navbar-collapse collapse show" id="navbarCollapse" >
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Início</a> </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sobre
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/sobre/o-projeto.html">O projeto</a></li>
+                                <li><a class="dropdown-item" href="pages/sobre/acoes.html">Ações</a></li>
+                                <li><a class="dropdown-item" href="pages/sobre/equipe.html">Equipes</a></li>
+                                <li><a class="dropdown-item" href="pages/sobre/parceiros.html">Parceiros</a></li>
+                                <li><a class="dropdown-item" href="pages/sobre/saiu-na-midia.html">Saiu na Mídia</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Literatura Diademense
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/literatura-diademense/acervo-literario.html">Acervo literário</a></li>
+                                <li><a class="dropdown-item" href="pages/literatura-diademense/galeria-de-autores.html">Galeria de autores</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Concurso literário
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/concurso-literario/inscricao.html">Inscrição</a></li>
+                                <li><a class="dropdown-item" href="pages/concurso-literario/premiacao.html">Premiação</a></li>
+                                <li><a class="dropdown-item" href="pages/concurso-literario/regulamento.html">Regulamento</a></li>
+                                <li><a class="dropdown-item" href="pages/concurso-literario/perguntas-e-respostas.html">Perguntas e respostas</a></li>
+                                <li><a class="dropdown-item" href="pages/concurso-literario/modelos-do-documento.html">Modelos de documentos</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Mapeamento
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/mapeamento/visualizar-resultados.html">Visualizar resultados</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"> <a class="nav-link active" href="pages/eventos-literarios.html">Eventos literários</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="pages/revista-literaria.html">Revista literária</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="pages/contato.html">Contato</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Hello, world!</h1>
+
+    <main class="container">
+        <!-- PROJETO -->
+        <h2 class="text-center">POR DENTRO DO PROJETO</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            EQUIPE
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            AÇÕES
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            FOTOS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            PARCEIROS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"></div>
+
+        <!-- AUTORES E AUTORAS DA CIDADE -->
+        <h2 class="text-center">AUTORES E AUTORAS DA CIDADE</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA NEGRA
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA INDÍGENA
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA DE CORDEL
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA FEMININA
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA INFANTIL
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            LITERATURA DEF
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            HISTÓRIA EM QUADRINHOS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            TODOS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAPEAMENTO -->
+        <h2 class="text-center">MAPEAMENTO</h2>
+        <div class="row">
+            <img src="..." class="img-fluid" alt="...">
+        </div>
+
+        <!-- NOVIDADES -->
+        <h2 class="text-center">NOVIDADES</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            EQUIPE
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            AÇÕES
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            FOTOS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            PARCEIROS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERGUNTAS FREQUENTES -->
+        <h2 class="text-center">PERGUNTAS FREQUENTES</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        O que é o projeto?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>O Diadema Escreve é uma iniciativa cultural coletiva que tem como objetivo valorizar,
+                            divulgar e estimular a produção literária local, reconhecendo o protagonismo de escritores e
+                            escritoras da cidade de Diadema. </p>
+
+                        <p>O projeto busca promover a diversidade de estilos, narrativas e vozes, envolvendo novos
+                            talentos e autores já consolidados.</p>
+
+                        <p>Em 2024, o Projeto foi contemplado com um fomento financeiro no Programa de Ação Cultural -
+                            ProAC, através do Edital nº. 29/2024 de Modernização e Manutenção de Bibliotecas Públicas e
+                            Comunitárias, promovido pela Secretaria Estadual de Cultura, Economia e Indústria Criativas
+                            do governo do Estado de São Paulo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Quais são as ações desenvolvidas?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>O projeto consiste em 5 (cinco) principais ações que se entrelaçam, a saber:</p>
+
+                        <p><strong>1) Realização de Mapeamento Literário:</strong> consiste em identificar, por meio de
+                            um questionário on-line, as pessoas que exercitam a arte da escrita em Diadema, mesmo que
+                            não tenham tido seus textos publicados em algum meio de divulgação antes.</p>
+
+                        <p><strong>2) Criação de um Portal sobre a Literatura Diademense:</strong> consiste em um
+                            ambiente digital desenvolvido para apoiar, de forma contínua, sistematizada e gratuita,
+                            escritores e escritoras da cidade na divulgação da sua produção literária, assim como
+                            oferecer ao munícipe e demais interessados um panorama atualizado sobre os escritores e
+                            escritoras diademenses, suas obras publicadas, os gêneros e temáticas explorados, além de
+                            divulgar eventos, lançamentos, projetos culturais e oficinas literárias que ocorrem na
+                            cidade.</p>
+
+                        <p>Com isso, a plataforma propõe-se a ser um espaço de consulta e referência, tanto para o
+                            público leitor quanto para profissionais da educação, agentes culturais e demais
+                            interessados na literatura local.</p>
+
+                        <p><strong>3) Realização de Eventos Literários:</strong> consiste em oportunizar aos escritores
+                            e às escritoras da cidade, bem como ao público em geral, momentos de troca, formação,
+                            produção, atuação e apreciação/fruição literária, a partir de programações culturais
+                            gratuitas que mesclam saberes, formatos e atores diversos do campo da literatura,
+                            especialmente no mês de julho, em que se celebra o dia nacional do escritor e da escritora.
+                        </p>
+
+                        <p><strong>4) Criação de uma revista literária para Diadema:</strong> consiste em um meio físico
+                            e digital para acessibilizar a leitura de produções literárias diademenses à população, bem
+                            como oportunizar aos escritores e às escritoras da cidade, um canal remunerado de
+                            publicação, especialmente aos que estão iniciando agora e ainda não têm textos autorais
+                            publicados para constituir seu portfólio. </p>
+
+                        <p>A revista será semestral, em formato acessível, e contará com um comitê editorial com
+                            pareceristas para avaliar as submissões que comporão as edições.</p>
+
+                        <p><strong>5) Realização de um concurso literário:</strong> consiste em um mecanismo para
+                            fomentar a escrita na cidade, identificando novos talentos e promovendo a diversidade
+                            literária. </p>
+
+                        <p>O concurso premiará em 5(cinco) categorias textuais: conto, crônica, cordel, poesia e
+                            literatura infantil, com prêmios em dinheiro, livros, publicação em revista e um recurso
+                            tecnológico.</p>
+
+                        <p>A participação é gratuita.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Qual sua duração?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Ao longo de 18 meses, o projeto propõe uma série de ações que vão conectar leitores, autores
+                            e espaços culturais, criando um ambiente fértil para que a literatura local floresça.</p>
+
+                        <p>Após esse período, o projeto continuará captando recursos e estabelecendo parcerias para
+                            garantir a sua continuidade e ampliação.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        Como faço para ter minha obra ou editora divulgada no site?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Para compor a <strong>Galeria de Autores</strong> ou o <strong>Acervo Literário</strong> do
+                            site, a pessoa interessada deverá se inscrever no Mapeamento Literário de Diadema. Para
+                            isso, basta acessar o formulário, através do link https://forms.gle/JwUSU6dFjpfYSiCg6 e
+                            preencher seus dados.</p>
+
+                        <p>Se for para solicitar a inclusão de editoras ou eventos literários no site e/ou redes sociais
+                            do projeto, a pessoa deverá entrar em contato através do e-mail: diademaescreve@gmail.com.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        Como faço para participar do concurso literário?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Para participar do concurso literário, a pessoa interessada deverá atender aos critérios do
+                            Regulamento e acessar o link de inscrição dentro do período indicado.</p>
+
+                        <p>Em 2025, as inscrições ocorrerão no período de 1 a 31 de julho, de forma gratuita, sem
+                            restrição mínima de idade, através do link:
+                            https://docs.google.com/forms/d/e/1FAIpQLScQrf9GrTQbfH1QLvEukvxBAV6pV4dJ7MY-W6oqXPJrm7phuQ/viewform?usp=preview
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSix">
+                        Como faço para publica meu texto na revista literária?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Para submeter um texto para publicação na Revista Literária "Diadema Escreve", a pessoa
+                            interessada deverá atender aos critérios editoriais estipulados, encaminhando sua produção
+                            dentro do período aberto de submissão, em link a ser divulgado.</p>
+
+                        <p>A submissão é gratuita, e o texto, caso seja aprovado, é publicado sem restrição de
+                            exclusividade nos direitos autorais.</p>
+
+                        <p>A edição de 2025, de lançamento, será temática do concurso literário. </p>
+
+                        <p>Em caso de dúvidas, contatar a organização do Projeto através do e-mail:
+                            escritoresdiademenses@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSeven">
+                        Como faço para contribuir com o projeto?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Para contribuir com o Projeto, seja de forma financeira, material ou com ações, a pessoa ou
+                            entidade interessada deverá entrar em contato através do e-mail: diademaescreve@gmail.com.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+
+    <!-- FOOTER -->
+    <div class="container text-center">
+        <footer class="py-5">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <h5>Sobre</h5>
+                </div>
+                <div class="col-3">
+                    <h5>Apoio ao projeto</h5>
+                </div>
+                <div class="col-3">
+                    <h5>Divulgue seu evento literário</h5>
+                </div>
+                <div class="col-3">
+                    <h5>Contato</h5>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2025 Diadema Escreve</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="link-body-emphasis" href="#" aria-label="Instagram">
+                            <svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="link-body-emphasis" href="#" aria-label="Facebook">
+                            <svg class="bi" width="24" height="24" aria-hidden="true">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script> new window.VLibras.Widget('https://vlibras.gov.br/app'); </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
