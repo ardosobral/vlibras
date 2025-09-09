@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +16,10 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid"> 
-                <a class="navbar-brand" href="#">Diadema Escreve</a> 
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+                    <img src="img/favicon.png" class="bi me-2" width="40" height="32" alt="">
+                    <span class="fs-4">Diadema Escreve</span>
+                </a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation"> 
                     <span class="navbar-toggler-icon"></span> 
                 </button>
@@ -26,14 +28,13 @@
                         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Início</a> </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false">
                                 Sobre
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="pages/sobre/o-projeto.html">O projeto</a></li>
                                 <li><a class="dropdown-item" href="pages/sobre/acoes.html">Ações</a></li>
-                                <li><a class="dropdown-item" href="pages/sobre/equipe.html">Equipes</a></li>
+                                <li><a class="dropdown-item" href="pages/sobre/equipe.html">Equipe</a></li>
                                 <li><a class="dropdown-item" href="pages/sobre/parceiros.html">Parceiros</a></li>
                                 <li><a class="dropdown-item" href="pages/sobre/saiu-na-midia.html">Saiu na Mídia</a></li>
                             </ul>
@@ -82,137 +83,157 @@
             </div>
         </nav>
     </header>
-
-    <h1>Hello, world!</h1>
+    <h1>Diadema Escreve</h1>
 
     <main class="container">
         <!-- PROJETO -->
-        <h2 class="text-center">POR DENTRO DO PROJETO</h2>
+        <h2 class="mt-4 text-center">POR DENTRO DO PROJETO</h2>
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/por-dentro/equipe.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            EQUIPE
+                        <div class="card-title text-center">
+                            <a href="pages/sobre/equipe.html">EQUIPE</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/por-dentro/acoes.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            AÇÕES
+                        <div class="card-title text-center">
+                            <a href="pages/sobre/acoes.html">AÇÕES</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/por-dentro/fotografias.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            FOTOS
+                        <div class="card-title text-center">
+                            <a href="pages/sobre/fotos.html">FOTOS</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/por-dentro/parceiros.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            PARCEIROS
+                        <div class="card-title text-center">
+                            <a href="pages/sobre/parceiros.html">PARCEIROS</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row"></div>
+        <div class="row my-5">
+            <div class="col-12">
+                <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/home/por-dentro/carrosel/revista.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/home/por-dentro/carrosel/concurso.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+        </div>
 
         <!-- AUTORES E AUTORAS DA CIDADE -->
-        <h2 class="text-center">AUTORES E AUTORAS DA CIDADE</h2>
+        <h2 class="mt-4 text-center">AUTORES E AUTORAS DA CIDADE</h2>
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-negra.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA NEGRA
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-indigena.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA INDÍGENA
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-cordel.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA DE CORDEL
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-feminina.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA FEMININA
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-3">
+        <div class="mt-3 row">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-infantil.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA INFANTIL
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/lit-def.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             LITERATURA DEF
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/hit-quadrinhos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             HISTÓRIA EM QUADRINHOS
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/pessoas-autoras/todos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
+                        <div class="card-title text-center">
                             TODOS
                         </div>
                     </div>
@@ -221,50 +242,50 @@
         </div>
 
         <!-- MAPEAMENTO -->
-        <h2 class="text-center">MAPEAMENTO</h2>
+        <h2 class="mt-4 text-center">MAPEAMENTO</h2>
         <div class="row">
-            <img src="..." class="img-fluid" alt="...">
+            <img src="img/home/mapeamento/mapeamento.png" class="img-fluid" alt="...">
         </div>
 
         <!-- NOVIDADES -->
-        <h2 class="text-center">NOVIDADES</h2>
+        <h2 class="mt-4 text-center">NOVIDADES</h2>
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/novidades/concurso.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            EQUIPE
+                        <div class="card-title text-center">
+                            <a href="">Concurso Literário: resultado na FLID!</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/novidades/resultados.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            AÇÕES
+                        <div class="card-title text-center">
+                            <a href="">Resultados parciais do mapeamento</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/novidades/midia.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            FOTOS
+                        <div class="card-title text-center">
+                            <a href="">Diadema Escreve na Mídia</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3 mt-1">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/home/novidades/revistas.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <div class="card-title">
-                            PARCEIROS
+                        <div class="card-title text-center">
+                            <a href="">Em breve: Revista literária de Diadema</a>
                         </div>
                     </div>
                 </div>
@@ -272,7 +293,7 @@
         </div>
 
         <!-- PERGUNTAS FREQUENTES -->
-        <h2 class="text-center">PERGUNTAS FREQUENTES</h2>
+        <h2 class="mt-4 text-center">PERGUNTAS FREQUENTES</h2>
         <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -474,21 +495,21 @@
     <div class="container text-center">
         <footer class="py-5">
             <div class="row align-items-center">
-                <div class="col-3">
+                <div class="col-12 col-md-3 mt-1">
                     <h5>Sobre</h5>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 mt-1">
                     <h5>Apoio ao projeto</h5>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 mt-1">
                     <h5>Divulgue seu evento literário</h5>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-md-3 mt-1">
                     <h5>Contato</h5>
                 </div>
             </div>
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2025 Diadema Escreve</p>
+                <p class="text-center">© 2025 Diadema Escreve</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3">
                         <a class="link-body-emphasis" href="#" aria-label="Instagram">
@@ -511,9 +532,6 @@
 
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script> new window.VLibras.Widget('https://vlibras.gov.br/app'); </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
-
 </html>
